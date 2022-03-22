@@ -1,0 +1,227 @@
+### Territory Subgroups ###
+  Subgroup 0: Geographic indicators
+     Indicator 0: Surface area
+     Indicator 1: Altitude
+     Indicator 2: Longitude
+     Indicator 3: Latitude
+     Indicator 4: UTM coordinates x
+     Indicator 5: UTM coordinates y
+### Population Subgroups ###
+  Subgroup 0: Density of population
+     Indicator 0: Surface area
+     Indicator 1: Density
+  Subgroup 1: Population. By sex
+     Indicator 0: Men
+     Indicator 1: Women
+     Indicator 2: Total
+  Subgroup 2: Population. By age groups
+     Indicator 0: From 0 to 14 years
+     Indicator 1: From 15 to 64 years
+     Indicator 2: From 65 to 84 years
+     Indicator 3: From 85 years and over
+     Indicator 4: Total
+  Subgroup 3: Population. By age groups. Men
+     Indicator 0: From 0 to 14 years
+     Indicator 1: From 15 to 64 years
+     Indicator 2: From 65 to 84 years
+     Indicator 3: From 85 years and over
+     Indicator 4: Total
+  Subgroup 4: Population. By age groups. Women
+     Indicator 0: From 0 to 14 years
+     Indicator 1: From 15 to 64 years
+     Indicator 2: From 65 to 84 years
+     Indicator 3: From 85 years and over
+     Indicator 4: Total
+  Subgroup 5: Population. By place of birth
+     Indicator 0: Catalonia
+     Indicator 1: Rest of Spain
+     Indicator 2: Abroad
+     Indicator 3: Total
+  Subgroup 6: Population. By nationality
+     Indicator 0: Spanish
+     Indicator 1: Foreign
+     Indicator 2: Total
+  Subgroup 7: Population. By nationality. Men
+     Indicator 0: Spanish
+     Indicator 1: Foreign
+     Indicator 2: Total
+  Subgroup 8: Population. By nationality. Women
+     Indicator 0: Spanish
+     Indicator 1: Foreign
+     Indicator 2: Total
+  Subgroup 9: Population resident abroad on 1 January. By sex
+     Indicator 0: Men
+     Indicator 1: Women
+     Indicator 2: Total
+  Subgroup 10: Statistics on Commuting for Non-University Studies
+     Indicator 0: Resident Students
+     Indicator 1: Resident Students who study in the same municipality
+  Subgroup 11: Births. By sex
+     Indicator 0: Boys
+     Indicator 1: Girls
+     Indicator 2: Total
+  Subgroup 12: Deaths. By sex
+     Indicator 0: Men
+     Indicator 1: Women
+     Indicator 2: Total
+  Subgroup 13: Marriages
+     Indicator 0: Total
+  Subgroup 14: Internal migrations. Destination-origin balances
+     Indicator 0: Balance with Catalonia
+     Indicator 1: Balance with Spain
+     Indicator 2: Internal migratory net balance
+  Subgroup 15: External migrations
+     Indicator 0: Immigrations
+     Indicator 1: Emigrations
+  Subgroup 16: External immigrations. By place of origin
+     Indicator 0: Rest of EU
+     Indicator 1: Rest of the world
+     Indicator 2: Total
+  Subgroup 17: 2001-2011 Intercensal Population Growth
+     Indicator 0: Population Growth
+     Indicator 1: Population Growth (annual average)
+     Indicator 2: Natural Increase (annual average)
+     Indicator 3: Net Migration (annual average)
+### Culture · Language Subgroups ###
+  Subgroup 0: Population of 2 years and over. By knowledge of Catalan
+     Indicator 0: Understand
+     Indicator 1: Speak
+     Indicator 2: Read
+     Indicator 3: Write
+     Indicator 4: Do not understand
+     Indicator 5: Total
+  Subgroup 1: Libraries
+     Indicator 0: Public
+     Indicator 1: Others
+     Indicator 2: Total
+  Subgroup 2: Sports facilities
+     Indicator 0: Pavilions
+     Indicator 1: Multisport courts
+     Indicator 2: Multisport fields
+     Indicator 3: Sports halls
+     Indicator 4: Indoor swimming pools
+     Indicator 5: Athelitcs tracks
+     Indicator 6: Other facilities
+     Indicator 7: Total
+### Education Subgroups ###
+  Subgroup 0: Population aged 15 and over. By level of education attained
+     Indicator 0: Primary education or lower
+     Indicator 1: First stage of secondary education
+     Indicator 2: Second stage of secondary education
+     Indicator 3: Higher education
+### Elections Subgroups ###
+  Subgroup 0: Elections to the Parliament of Catalonia
+     Indicator 0: Electors
+     Indicator 1: Turnout
+  Subgroup 1: Elections to the Congress of Deputies
+     Indicator 0: Electors
+     Indicator 1: Turnout
+  Subgroup 2: Elections to the European Parliament
+     Indicator 0: Turnout
+     Indicator 1: Electors
+### Labour Subgroups ###
+  Subgroup 0: Contributors to Social Security according to the residence of the contributor
+     Indicator 0: Men
+     Indicator 1: Women
+     Indicator 2: Total
+  Subgroup 1: Affiliations to Social Security according to the residence of the contributor
+     Indicator 0: Total
+  Subgroup 2: Affiliations to S. S. general system according to the location of the affilation. By sectors
+     Indicator 0: Agriculture
+     Indicator 1: Industry
+     Indicator 2: Construction
+     Indicator 3: Services
+     Indicator 4: Total
+  Subgroup 3: Affiliations to S. S. self-employed system according to the location of the affilation. By sectors
+     Indicator 0: Agriculture
+     Indicator 1: Services
+     Indicator 2: Total
+  Subgroup 4: Affiliations to S. S. general system according to the location of the affilation. By size of centre
+     Indicator 0: Up to 50 workers
+     Indicator 1: From 51 to 250 workers
+     Indicator 2: From 251 workers and over
+     Indicator 3: Total
+  Subgroup 5: Contributory accounts
+     Indicator 0: Total
+  Subgroup 6: Contributory Social Security pensions. December
+     Indicator 0: Total
+     Indicator 1: Average pension
+  Subgroup 7: Contributory Social Security Pensioners. By sex. December
+     Indicator 0: Men
+     Indicator 1: Women
+     Indicator 2: Total
+  Subgroup 8: Registered unemployment. By sectors
+     Indicator 0: Agriculture
+     Indicator 1: Industry
+     Indicator 2: Construction
+     Indicator 3: Services
+     Indicator 4: Without previous employment
+     Indicator 5: Total
+  Subgroup 9: Registered unemployment. By sex
+     Indicator 0: Men
+     Indicator 1: Women
+     Indicator 2: Total
+### Quality of life Subgroups ###
+  Subgroup 0: Family dwellings. By type
+     Indicator 0: Main
+     Indicator 1: Secondary
+     Indicator 2: Total
+### Main aggregates · Public sector finance Subgroups ###
+  Subgroup 0: Urban property tax (IBI)
+     Indicator 0: Number of receipts
+     Indicator 1: Taxable base by receipt
+     Indicator 2: Integral quota by receipt
+  Subgroup 1: Personal Income Tax (IRPF)
+     Indicator 0: Taxable base by declarer
+     Indicator 1: Resulting quota from self-payment by declarer
+### Economic sectors Subgroups ###
+  Subgroup 0: Used agricultural area (UAA)
+     Indicator 0: Cultivated land
+     Indicator 1: Permanent pasture
+     Indicator 2: Total
+  Subgroup 1: Cultivated land. By type of crop
+     Indicator 0: Herbaceous crops
+     Indicator 1: Fruit trees
+     Indicator 2: Olives
+     Indicator 3: Vines
+     Indicator 4: Others
+     Indicator 5: Total
+  Subgroup 2: Farms. By land ownership
+     Indicator 0: Without land
+     Indicator 1: With land
+     Indicator 2: Total
+  Subgroup 3: Farms. By livestock ownership
+     Indicator 0: Without livestock
+     Indicator 1: With livestock
+     Indicator 2: Total
+  Subgroup 4: Head of livestock. By species
+     Indicator 0: Bovine
+     Indicator 1: Ovine
+     Indicator 2: Caprine
+     Indicator 3: Porcine
+     Indicator 4: Avian
+     Indicator 5: Female rabbits
+     Indicator 6: Equine
+  Subgroup 5: Housing construction
+     Indicator 0: State subsidised housing starts
+     Indicator 1: Housing starts
+  Subgroup 6: Tourist accommodation
+     Indicator 0: Hotels
+     Indicator 1: Hotel beds
+     Indicator 2: Campsites
+     Indicator 3: Campsite places
+     Indicator 4: Rural tourism
+     Indicator 5: Rural tourism beds
+  Subgroup 7: Fleet of vehicles
+     Indicator 0: Estate cars
+     Indicator 1: Motorcycles
+     Indicator 2: Industrial vehicles
+     Indicator 3: Others
+     Indicator 4: Total
+### Environment Subgroups ###
+  Subgroup 0: Municipal waste
+     Indicator 0: Generation per capita
+     Indicator 1: Selective collection
+  Subgroup 1: Industrial waste
+     Indicator 0: Establishments with yearly waste declarations
+     Indicator 1: Industrial waste
