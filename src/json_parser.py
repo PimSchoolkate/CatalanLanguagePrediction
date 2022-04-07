@@ -104,6 +104,9 @@ class JSONParser:
     def add_value_map(self, fun):
         self._value_map_fun = fun
 
+    def names(self):
+        return list(self._json_data.keys())
+
     def _parse_all(self):
         _to_parse = [(_name, v[1]) for i, (_name, v) in enumerate(self._json_data.items()) if v[0] is False]
         for _name, _data in _to_parse:
@@ -127,8 +130,6 @@ class JSONParser:
             pass
         else:
             self._holder.key(_level, self._key_map_fun(" ".join([_d[int] for int in inter])))
-            # raise ValueError(f"Level {_level} contains multiple hits for {self._json_column_keys}."
-            #                  f"Namely: {inter}")
 
         if self._json_value_key in _d.keys():
             if self._holder.does_not_have_value():
