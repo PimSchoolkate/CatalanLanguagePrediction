@@ -63,6 +63,9 @@ class JSONParser:
         def key(self, _ref, key):
             self._keys[_ref] = key
 
+        def pop(self, key):
+            self._keys.pop(key)
+
         def value(self, val):
             self._value = val
 
@@ -122,6 +125,9 @@ class JSONParser:
         elif type(_j) == list:
             self._parse_list(_j, _level)
 
+        if _level in self._holder._keys:
+            self._holder.pop(_level)
+
     def _parse_dict(self, _d, _level):
         inter = intersect(self._json_column_keys, _d.keys())
         if len(inter) == 1:
@@ -144,12 +150,6 @@ class JSONParser:
         for _e in _l:
             self._parse(_e, _level)
 
-    def _value_mapper(self):
-        pass
-
-    def _key_mapper(self):
-        pass
-
 
 def intersect(lst1, lst2):
     return list(set(lst1) & set(lst2))
@@ -161,8 +161,8 @@ def homogenize_key(key):
 
 def value_splitter(value):
     assert type(value) == str
-    mun, com, ca = value.split(',')
-    return mun
+    val = value.split(',')
+    return val[0]
 
 
 def empty_map_func(_in):
