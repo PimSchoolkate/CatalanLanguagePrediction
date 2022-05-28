@@ -4,6 +4,8 @@ def merge_csvs(path, name):
     
     df = pd.DataFrame()
     for file in os.listdir(path):
+        if 'data_' not in file:
+            continue
         filepath = os.path.join(path, file)
         subdf = pd.read_csv(filepath)
         df = pd.concat([df, subdf], axis=0)
@@ -31,7 +33,8 @@ def get_info_from_column(col):
 
 def format_name(string):
     import re
-    return '_'.join(re.findall(r'[A-Za-z]+', string)).lower()
+    
+    return '_'.join(re.findall(r'[A-Za-z0-9]+', string)).lower()
 
 def get_relevant_info_by_group(col):
 
@@ -53,7 +56,7 @@ def get_relevant_info_by_group(col):
     elif 'population' in main:
         sub = fields[1]
         if len(fields) >= 4:
-            sub = fields[3]
+            sub = '_'.join([fields[2], fields[3]])
         ind = fields[-1]     
     elif 'quality' in main: sub = fields[1]; ind = fields[-1]
     elif 'territory': sub = ''; ind = fields[-1]
