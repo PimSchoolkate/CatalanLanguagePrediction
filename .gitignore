@@ -5,7 +5,20 @@ __pycache__/
 
 # C extensions
 *.so
-plots/municipalities_map/
+municipalities_map/
+pickles/
+
+# Data
+data/data_1.csv
+data/data_2.csv
+data/data_3.csv
+data/data_4.csv
+data/data_5.csv
+data/data_6.csv
+data/data_7.csv
+data/data_8.csv
+data/data_9.csv
+data/data_10.csv
 
 # Distribution / packaging
 .Python
