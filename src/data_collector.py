@@ -23,7 +23,7 @@ class idescat_API:
         return self.collect_n_muns(mun_dict)
 
     def request_mun(self, mun_id):
-        mun_res = requests.get("https://api.idescat.cat/emex/v1/dades.json?id={}&lang=en".format(mun_id))
+        mun_res = requests.get("https://api.idescat.cat/emex/v1/dades.json?tipus=mun?id={}&lang=en".format(mun_id))
         return mun_res.json()
 
     def create_meta_municipalities(self):
